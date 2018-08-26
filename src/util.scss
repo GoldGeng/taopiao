@@ -1,0 +1,13 @@
+// 文字居中
+@mixin text-center($height){
+    text-align: center;
+    line-height: $height;
+}
+@mixin text-left($height){
+    text-align: left;
+    line-height: $height;
+}
+@mixin text-right($height){
+    text-align: right;
+    line-height: $height;
+}

@@ -70,8 +70,8 @@
       font-size: 15px;
       color: #333333; }
       .user__content--keep__right, .user__content--looked__right {
-        display: inline-block;
         float: right;
+        display: block;
         font-size: 13px;
         color: #999999; }
   .user__tabMenu {

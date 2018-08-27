@@ -1,0 +1,79 @@
+.user {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
+  .user__top {
+    width: 100%;
+    height: 180px;
+    padding-top: 9px;
+    background-color: #300000dc; }
+    .user__top--bar {
+      width: 100%;
+      height: 48px;
+      box-sizing: border-box;
+      line-height: 48px; }
+    .user__top--setting, .user__top--message {
+      display: inline-block;
+      height: 100%;
+      padding: 0 15px; }
+      .user__top--setting i, .user__top--message i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        height: 20px; }
+    .user__top--setting {
+      float: left; }
+      .user__top--setting i {
+        background-image: url(../../icons/setting.svg);
+        background-size: 100% 100%; }
+    .user__top--message {
+      float: right; }
+      .user__top--message i {
+        background-image: url(../../icons/message.svg);
+        background-size: 100% 100%; }
+    .user__top--deriction {
+      width: 100%;
+      height: 132px;
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box; }
+    .user__top--img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      overflow: hidden; }
+      .user__top--img img {
+        width: 100%;
+        height: 100%; }
+    .user__top--info {
+      flex: 1;
+      padding-left: 15px; }
+      .user__top--info__name {
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 11px; }
+      .user__top--info__concern {
+        font-size: 12px;
+        color: #ffffff; }
+  .user__content {
+    width: 100%;
+    flex: 1;
+    padding: 0 15px;
+    box-sizing: border-box; }
+    .user__content--keep, .user__content--looked {
+      width: 100%;
+      height: 59px;
+      border-bottom: 1px solid #e2e2e2;
+      line-height: 59px;
+      font-size: 15px;
+      color: #333333; }
+      .user__content--keep__right, .user__content--looked__right {
+        display: inline-block;
+        float: right;
+        font-size: 13px;
+        color: #999999; }
+  .user__tabMenu {
+    width: 100%;
+    height: 36px; }

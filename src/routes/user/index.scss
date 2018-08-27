@@ -1,0 +1,99 @@
+.user{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    &__top{
+        width: 100%;
+        height: 180px;
+        padding-top: 9px;
+        background-color: #300000dc;
+        &--bar{
+            width: 100%;
+            height: 48px;
+            box-sizing: border-box;
+            line-height: 48px;
+        }
+
+        &--setting, &--message{
+            display: inline-block;
+            height: 100%;
+            padding: 0 15px;
+            i{
+                display: inline-block;
+                vertical-align: middle;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &--setting {
+            float: left;
+            i{
+                background-image: url(../../icons/setting.svg);
+                background-size: 100% 100%;
+            }
+        }
+        &--message {
+            float: right;
+            i{
+                background-image: url(../../icons/message.svg);
+                background-size: 100% 100%;
+            }
+        }
+        &--deriction{
+            width: 100%;
+            height: 132px;
+            padding: 0 15px;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        &--img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &--info{
+            flex: 1;
+            padding-left: 15px;
+            &__name{
+                font-size: 20px;
+                color: #ffffff;
+                margin-bottom: 11px;
+            }   
+            &__concern{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+    }
+    &__content{
+        width: 100%;
+        flex: 1;
+        padding: 0 15px;
+        box-sizing: border-box;
+        &--keep,&--looked{
+            width: 100%;
+            height: 59px;
+            border-bottom: 1px solid #e2e2e2;
+            line-height: 59px;
+            font-size: 15px;
+            color: #333333;
+            &__right{
+                display: inline-block;
+                float: right;
+                font-size: 13px;
+                color: #999999;
+            }
+        }
+    }
+    &__tabMenu{
+        width: 100%;
+        height: 36px;
+    }
+}
